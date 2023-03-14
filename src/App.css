@@ -1,38 +1,275 @@
-.App {
+
+
+#mainNavbar{
+
+height: 90px;
+margin-left: 5%;
+max-width: 90%;
+border-radius: 2px;
+
+}
+
+
+#submitButton{
+
+  margin-left: 5rem;
+  width: 40%;
+
+}
+
+
+#loginTimeThree{
+
+  background-image: url(./images/background.svg);
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  
+}
+
+
+
+
+/* Timesheet Home Page start */
+
+
+
+#timesheetHome {
+
+  
+  background-color: #ffff;
+
+}
+
+#timesheetHome .homeCard{
+  background-image: url(./images/loginhome-6.svg);
+  background-repeat: no-repeat;
+  background-size: 140% 110%;
+    min-height: 100vh;
+    border-radius: 5px;
+    overflow: auto;
+  
+  }
+  
+  
+  #timesheetHome h1{
+    
+    margin-left: 20px;
+  }
+
+  #timesheet .shadow{
+
+    height: 70px;
+
+  }
+
+  #timesheetHome a{
+ 
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+
+  }
+
+  #timesheetHome .tab-links a:hover{
+
+    color: #3498db;
+  }
+  
+  #timesheetHome h3{
+  
+  margin-left: 170px;
+  
+  
+  }
+  
+  #timesheetHome h5{
+  
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 250px;
+  
+  }
+  
+  .submitbtn{
+  
+    margin-left: 200px;
+    border-radius: 5px;
+  }
+  
+  
+  .submitbt{
+  
+    margin-left: 15px;
+    border-radius: 2%;
+  }
+  
+  #timesheetHome .tittle{
+  
+    margin-left: 50px;
+  font-size: 30px;
+  
+  }
+  
+  
+  #timesheetHome .tab-links{
+  
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+    
+  
+  }
+  
+
+
+
+
+
+
+
+/* Timesheet Home Page Ends */
+
+/* Leave Portal Home Page */
+
+#leaveHome{
+
+  background-color: #ffff;
+
+}
+
+#leaveHome .homeCard{
+background-image: url(./images/loginhome-6.svg);
+background-repeat: no-repeat;
+background-size: 140% 110%;
+  min-height: 100vh;
+  border-radius: 5px;
+  overflow: auto;
+
+}
+
+#leaveHome h1{
+
+  margin-bottom: 42px;
+
+}
+
+#leaveHome .shadow{
+
+  height: 70px;
+
+}
+
+#leaveHome h2 {
+
+  margin-left: 100px;
+  margin-top: 100px;
+  
+
+}
+
+#leaveHome a{
+color: black;
+text-decoration: none;
+margin-left: 30px;
+}
+
+#leaveHome .tab-links a:hover{
+
+  color: #3498db;
+
+}
+
+#leaveHome img{
+
+}
+
+#leaveHome h3{
+
+margin-left: 170px;
+
+
+}
+
+#leaveHome h5{
+
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 250px;
+
+}
+
+#leaveHome .submitbtn{
+
+  margin-left: 180px;
+  border-radius: 100px;
+}
+
+
+#leaveHome .submitbt{
+
+  margin-left: 15px;
+  border-radius: 100px;
+}
+
+#leaveHome .tittle{
+
+  margin-left: 50px;
+font-size: 30px;
+
+}
+
+
+#leaveHome .tab-links{
+
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+/* Leave Portal Home Ends */
+
+#footer {
+  padding: 7%, 15%;
+  margin-top: auto;
+  overflow: hidden;
+}
+#footer a {
+  text-decoration: none;
+  color: #ffff;
+}
+#footer a:hover{
+  color: #3498db;
+}
+#footer p {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.Social-icons {
+  margin: 20px, 10px;
+}
+
+#footer .Copyright {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#footer .sections {
+  margin-top: 20px;
+  margin-left: 11%;
+}
+#footer .sections2{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+#footer .sections3{
+margin-top: 20px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#footer .Social-icons{
+  margin: 10px 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer ul{
+list-style: none;
 }
