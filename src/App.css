@@ -43,7 +43,7 @@ border-radius: 2px;
 #timesheetHome .homeCard{
   /* background-image: url(./images/loginhome-6.svg); */
   background-repeat: no-repeat;
-  background-size: 140% 110%;
+  /* background-size: 140% 110%; */
     min-height: 100vh;
     border-radius: 5px;
     overflow: auto;
