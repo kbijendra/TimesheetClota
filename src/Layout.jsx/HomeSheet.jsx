@@ -6,12 +6,16 @@ import ClotaLogoo from "../images/ClotaLogoo.png";
 import { Link, NavLink } from "react-router-dom";
 
 
+
+
 const TimesheetHome = () => {
+
+  
   return (
     <>
 
     
-<div id="timesheetHome" class="container-fluid">
+<div id="timesheetHome" className="container-fluid">
       
       <Card className="shadow homeCard "> 
       <Navbar bg="light" variant="light" className="shadow" >
@@ -35,29 +39,46 @@ Timesheet</h1>
 
         <Nav className="ms-auto tab-links">
           <NavLink to="/">Leave Portal</NavLink>
-          <NavLink to="/contact">Contact Us</NavLink>
+          <NavLink to="/contactus">Contact Us</NavLink>
         </Nav>
       </Container>
     </Navbar> 
-        <Card.Body >   
-      <h1>Welcome To Clota Timesheet Portal</h1>
+        <Card.Body className="cardBody" > 
+
+      <h2 className="text-center mt-5">Welcome To Clota Timesheet Portal</h2>
       <br />
-      <h3>Login To Continue</h3>
-      <h5>Login As</h5>
-      <Link to="/manager-login-timesheet" className="btn btn-primary submitbtn">Manager</Link>
-      <Link to="/user-login-timesheet" className="btn btn-success submitbt">Employee</Link>
+    
+      <div className="login">
+      <h3 className="text-center">Login To Continue</h3>
+        <form>
+          <label for="username">
+            <b>Username:</b> 
+            <input type="text" name="username" placeholder="Enter Username"  />
+          </label>
+          <label for="password">
+           <b>Password:</b> 
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter Password"
+            />
+          </label>
+          <button type="submit">Login</button>
+        </form>
+      </div>
       </Card.Body>
       </Card>
-    
+      
     </div>
     </>
   );
 };
 
+
 const LeavePortalHome = () => {
 
   return (
-    <div id="leaveHome" class="container-fluid">
+    <div id="leaveHome" className="container-fluid">
       
         <Card className="shadow homeCard "> 
         <Navbar bg="light" variant="light" className="shadow" >
@@ -79,18 +100,33 @@ const LeavePortalHome = () => {
             </Link>
           </Navbar.Brand>
           <Nav className="ms-auto tab-links">
-          <NavLink  to="/timesheetHome">Timesheet Portal</NavLink>
-            <NavLink to="/contact">Contact Us</NavLink>
+          <NavLink  to="/timesheetHome" className="mx-3">Timesheet Portal</NavLink>
+            <NavLink to="/contactus">Contact Us</NavLink>
           </Nav>
         </Container>
       </Navbar> 
-          <Card.Body >   
-        <h2>Welcome To Clota Leave Portal</h2>
-        <br />
-        <h3>Login To Continue</h3>
-        <h5>Login As</h5>
-        <Link to="/manager-login-leaveportal" className="btn btn-primary submitbtn">Manager</Link>
-        <Link to="/user-login-leaveportal" className="btn btn-success submitbt">Employee</Link>
+          <Card.Body className="" >   
+        <h2 className="text-center mt-5 ">Welcome To Clota Leave Portal</h2>
+
+        <div className="login">
+        <h3 className="text-center">Login To Continue</h3>
+        <form>
+
+          <label for="username">
+            <b>Username:</b> 
+            <input type="text" name="username" placeholder="Enter Username"/>
+          </label>
+          <label for="password">
+           <b>Password:</b> 
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter Password"
+            />
+          </label>
+          <button type="submit">Login</button>
+        </form>
+      </div>
         </Card.Body>
         </Card>
       
@@ -99,5 +135,6 @@ const LeavePortalHome = () => {
     
   );
 };
+
 
 export { TimesheetHome, LeavePortalHome };

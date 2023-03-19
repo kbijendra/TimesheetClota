@@ -1,275 +1,336 @@
+#timesheetHome{
 
-
-#mainNavbar{
-
-height: 90px;
-margin-left: 5%;
-max-width: 90%;
-border-radius: 2px;
+	overflow-x: hidden;
 
 }
 
-
-#submitButton{
-
-  margin-left: 5rem;
-  width: 40%;
-
-}
-
-
-#loginTimeThree{
-
-  background-image: url(./images/background.svg);
-  background-repeat: no-repeat;
-  min-height: 80vh;
-  
-}
-
-
-
-
-/* Timesheet Home Page start */
-
-
-
-#timesheetHome {
-
-  
-  background-color: #ffff;
-
-}
 
 #timesheetHome .homeCard{
-  background-image: url(./images/loginhome-6.svg);
-  background-repeat: no-repeat;
-  background-size: 140% 110%;
-    min-height: 100vh;
-    border-radius: 5px;
-    overflow: auto;
-  
-  }
-  
-  
-  #timesheetHome h1{
-    
-    margin-left: 20px;
-  }
 
-  #timesheet .shadow{
+	height: 100vh;;
 
-    height: 70px;
+}
 
-  }
+#timesheetHome a{
 
-  #timesheetHome a{
- 
-    color: black;
-    text-decoration: none;
-    margin-left: 30px;
+	color: black;
+	text-decoration: none;
+}
 
-  }
+#timesheetHome a:hover{
 
-  #timesheetHome .tab-links a:hover{
-
-    color: #3498db;
-  }
-  
-  #timesheetHome h3{
-  
-  margin-left: 170px;
-  
-  
-  }
-  
-  #timesheetHome h5{
-  
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 250px;
-  
-  }
-  
-  .submitbtn{
-  
-    margin-left: 200px;
-    border-radius: 5px;
-  }
-  
-  
-  .submitbt{
-  
-    margin-left: 15px;
-    border-radius: 2%;
-  }
-  
-  #timesheetHome .tittle{
-  
-    margin-left: 50px;
-  font-size: 30px;
-  
-  }
-  
-  
-  #timesheetHome .tab-links{
-  
-    font-style: italic;
-    font-size: 20px;
-    font-weight: 500;
-    
-  
-  }
-  
+	
+} 
 
 
 
 
 
+#timesheetHome .tab-links{
+
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 500;
+	
+
+}
 
 
-/* Timesheet Home Page Ends */
+#timesheetHome .cardBody{
 
-/* Leave Portal Home Page */
+
+}
+
+#timesheetHome .login{
+
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	width: 50%;
+	height: 55%;
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 35%;
+	max-width: 400px;
+
+}
+
+.login form  {
+	display: flex;
+	flex-direction: column;
+}
+
+.login h3{
+
+
+	margin-bottom: 5%;
+}
+
+.login label {
+	width: 800%;
+	margin-bottom: 10px;
+	margin-left: 10%;
+}
+
+
+.login input {
+	padding: 10px;
+	border-radius: 3px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.login button {
+	padding: 8px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 3%;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.login button:hover {
+	background-color: #3e8e41;
+	
+}
+
+
+
+/* Leave Portal Home */
+
+
 
 #leaveHome{
 
-  background-color: #ffff;
+	overflow-x: hidden;
 
 }
+
 
 #leaveHome .homeCard{
-background-image: url(./images/loginhome-6.svg);
-background-repeat: no-repeat;
-background-size: 140% 110%;
-  min-height: 100vh;
-  border-radius: 5px;
-  overflow: auto;
 
-}
-
-#leaveHome h1{
-
-  margin-bottom: 42px;
-
-}
-
-#leaveHome .shadow{
-
-  height: 70px;
-
-}
-
-#leaveHome h2 {
-
-  margin-left: 100px;
-  margin-top: 100px;
-  
+	height: 100vh;;
 
 }
 
 #leaveHome a{
-color: black;
-text-decoration: none;
-margin-left: 30px;
+
+	color: black;
+	text-decoration: none;
 }
 
-#leaveHome .tab-links a:hover{
+#leaveHome a:hover{
 
-  color: #3498db;
-
-}
-
-#leaveHome img{
-
-}
-
-#leaveHome h3{
-
-margin-left: 170px;
+	
+} 
 
 
-}
 
-#leaveHome h5{
-
-margin-top: 30px;
-margin-bottom: 30px;
-margin-left: 250px;
-
-}
-
-#leaveHome .submitbtn{
-
-  margin-left: 180px;
-  border-radius: 100px;
-}
-
-
-#leaveHome .submitbt{
-
-  margin-left: 15px;
-  border-radius: 100px;
-}
-
-#leaveHome .tittle{
-
-  margin-left: 50px;
-font-size: 30px;
-
-}
 
 
 #leaveHome .tab-links{
 
-  font-style: italic;
-  font-size: 20px;
-  font-weight: 500;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 500;
+		
 
 }
 
-/* Leave Portal Home Ends */
 
-#footer {
-  padding: 7%, 15%;
-  margin-top: auto;
-  overflow: hidden;
-}
-#footer a {
-  text-decoration: none;
-  color: #ffff;
-}
-#footer a:hover{
-  color: #3498db;
-}
-#footer p {
-  margin-top: 10px;
-  margin-left: 20px;
-}
-.Social-icons {
-  margin: 20px, 10px;
-}
 
-#footer .Copyright {
-  text-align: center;
-}
 
-#footer .sections {
-  margin-top: 20px;
-  margin-left: 11%;
-}
-#footer .sections2{
-  margin-top: 20px;
-  margin-right: 10px;
-}
-#footer .sections3{
-margin-top: 20px;
+#leaveHome .cardBody{
+
 
 }
 
-#footer .Social-icons{
-  margin: 10px 10px;
+#leaveHome .login{
+
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	width: 50%;
+	height: 55%;
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 35%;
+	max-width: 400px;
+
 }
 
-#footer ul{
-list-style: none;
+/* Contact us */
+
+
+.shadow
+	{
+		background-color: #f1e4e4;
+		font-family: sans-serif;
+		background-image: url(./images/wwq);
+	}
+
+
+    .contact-box
+{
+    width: 500px;
+   
+    /* box-shadow: 0 0 20px 0 #999; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
+form
+{
+    margin: 35px;
+}
+.input-field
+{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field
+{
+    height: 150px;
+    padding-top: 10px;
+}
+
+
+.Contact-box
+{
+    width: 500px;
+    margin-left: 30%;
+    /* border: 1.5px solid black; */
+    border-radius: 30px;
+    /* background-color: rgb(228, 187, 211); */
+}
+
+.btn
+{
+    width: 50%;
+    margin-left: 26%;
+    border: 2.5px solid rgb(67, 83, 51);
+	background-color: #0dd894;
+}
+
+    
+	  
+/* calendar */
+
+.calendar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	font-family: sans-serif;
+  }
+  
+  .react-calendar {
+	width: 100%;
+	max-width: 600px;
+	background-color: white;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+  }
+  
+  .react-calendar__month-view__weekdays__weekday {
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+  }
+  
+  .react-calendar__tile {
+	text-align: center;
+	padding: 10px;
+  }
+  
+  .react-calendar__tile--now {
+	background-color: #f0f0f0;
+	font-weight: bold;
+  }
+  
+  .react-calendar__tile--active {
+	background-color: #007bff;
+	color: white;
+	font-weight: bold;
+  }
+  
+  .react-calendar__navigation__label {
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 10px;
+  }
+   
+  /* leaveApplication */
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  select,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  input:required:focus {
+    border-color: #007bff;
+  }
+  
